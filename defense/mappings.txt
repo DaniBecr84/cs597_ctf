@@ -13,3 +13,8 @@ cp:ccpp
 mv:movie
 scp:ssccp
 echo:shout
+pwd:pwwwd
+git:git-er-done
+sudo:sudew
+su:sup
+
