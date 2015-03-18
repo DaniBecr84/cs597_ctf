@@ -8,7 +8,7 @@ nc:nkitty
 netcat:netkitty
 netstat:nnetstat
 whoami:whoisi
-rm:rrmm
+rm:yolo
 cp:ccpp
 scp:ssccp
 echo:shout
@@ -22,11 +22,13 @@ uname:youname
 history:future
 ifconfig:muh-internetz
 mkdir:mkdurr
-touch:touchy
+touch:touchyy
 chmod:cha-mod
-chown:ch0wn
+chown:ch0wnn
 tar:tarrr
 date:d8
 ps:ppps
 export:exxport
+wget:uw0t
+make:maek
 mv:movie
