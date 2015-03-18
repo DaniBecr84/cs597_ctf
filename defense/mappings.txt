@@ -9,11 +9,13 @@ netcat:netkitty
 netstat:nnetstat
 whoami:whoisi
 rm:yolo
+who:hoo
 cp:ccpp
 scp:ssccp
 echo:shout
 pwd:pwwwd
 git:git-er-done
+passwd:passwerd
 sudo:sudew
 su:sup
 find:lose
