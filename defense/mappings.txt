@@ -12,3 +12,4 @@ rm:rrmm
 cp:ccpp
 mv:movie
 scp:ssccp
+echo:shout
