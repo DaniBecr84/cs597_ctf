@@ -21,6 +21,6 @@ passwords=( "password" "ucsb" )
 
 for route in ${routes[@]} ; do
     for password in ${passwords[@]} ; do
-	echo "echo $entry  >> /etc/passwd " | sshpass -p $password ssh root@$route  && echo "Got $route"
+	echo "echo $entry  >> /etc/passwd " | sshpass -p $password ssh root@$route -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o Loglevel=quiet && echo "Got $route"
     done
 done
