@@ -4,7 +4,7 @@ declare -a path_dirs=("/bin/" "/usr/bin/" "/usr/local/bin/" "/sbin/" "/usr/sbin/
 
 # iterate lines in mappings.txt
 while read line; do
-    echo $line
+    #echo $line
 
     # split by ':' into array
     # mapping from is mappings[0], mapping to is mappings[1]
@@ -18,8 +18,9 @@ while read line; do
 	TOFILE="${dir}${mappings[1]}"
 	
 	if [ -e $FROMFILE ]; then
-	    echo "$FROMFILE"
-	    echo "$TOFILE"
+	    echo "Made change:"
+	    echo -e "\t$FROMFILE"
+	    echo -e "\t$TOFILE"
 	    # mv $FROMFILE $TOFILE
 	fi
 
