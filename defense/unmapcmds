@@ -1,0 +1,28 @@
+#!/bin/bash
+
+declare -a path_dirs=("/bin/" "/usr/bin/" "/usr/local/bin/" "/sbin/" "/usr/sbin/" "/usr/local/sbin/")
+
+# iterate lines in mappings.txt
+while read line; do
+    echo $line
+
+    # split by ':' into array
+    # mapping from is mappings[0], mapping to is mappings[1]
+    IFS=':' read -a mappings <<< "$line"
+
+    # iterate through path_dirs
+    # check if a binary exists in that folder
+    # move it if so
+    for dir in "${path_dirs[@]}"; do
+	FROMFILE="${dir}${mappings[1]}"
+	TOFILE="${dir}${mappings[0]}"
+	
+	if [ -e $FROMFILE ]; then
+	    echo "$FROMFILE"
+	    echo "$TOFILE"
+	    # mv $FROMFILE $TOFILE
+	fi
+
+    done
+    
+done < mappings.txt
