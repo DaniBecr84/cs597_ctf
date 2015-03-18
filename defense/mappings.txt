@@ -18,3 +18,13 @@ git:git-er-done
 sudo:sudew
 su:sup
 find:lose
+dd:HAHAno
+uname:youname
+history:future
+ifconfig:muh-internetz
+mkdir:mkdurr
+touch:touchy
+chmod:cha-mod
+chown:ch0wn
+tar:tarrr
+date:d8
