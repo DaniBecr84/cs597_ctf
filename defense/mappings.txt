@@ -17,4 +17,4 @@ pwd:pwwwd
 git:git-er-done
 sudo:sudew
 su:sup
-
+find:lose
