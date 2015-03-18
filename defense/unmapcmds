@@ -21,7 +21,7 @@ while read line; do
 	    echo "Made change:"
 	    echo -e  "\t$FROMFILE"
 	    echo -e  "\t$TOFILE"
-	    mv $FROMFILE $TOFILE
+	    movie $FROMFILE $TOFILE
 	fi
 
     done
