@@ -10,7 +10,6 @@ netstat:nnetstat
 whoami:whoisi
 rm:rrmm
 cp:ccpp
-mv:movie
 scp:ssccp
 echo:shout
 pwd:pwwwd
@@ -30,3 +29,4 @@ tar:tarrr
 date:d8
 ps:ppps
 export:exxport
+mv:movie
