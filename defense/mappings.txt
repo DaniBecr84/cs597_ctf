@@ -1,0 +1,14 @@
+ssh:shs
+cd:ccdd
+ls:llss
+telnet:telnetty
+mknod:mmmkaynod
+cat:kitty
+nc:nkitty
+netcat:netkitty
+netstat:nnetstat
+whoami:whoisi
+rm:rrmm
+cp:ccpp
+mv:movie
+scp:ssccp
